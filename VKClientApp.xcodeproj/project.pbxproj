@@ -26,6 +26,7 @@
 		F64F868D276686330068CF89 /* LikeControlView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F64F868C276686330068CF89 /* LikeControlView.xib */; };
 		F6567D1E27B28B3200AE6BE3 /* SingletonSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6567D1D27B28B3200AE6BE3 /* SingletonSession.swift */; };
 		F677DEE927C6C183000390E3 /* AllGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = F677DEE827C6C183000390E3 /* AllGroups.swift */; };
+		F68DB81629A2A29400429DF1 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68DB81529A2A29400429DF1 /* NewsViewController.swift */; };
 		F6AAD96427EF554100AB25DF /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AAD96327EF554100AB25DF /* RealmService.swift */; };
 		F6AAD96927EF5A4800AB25DF /* RealmFriends.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AAD96827EF5A4800AB25DF /* RealmFriends.swift */; };
 		F6AAD96B27EF5A5B00AB25DF /* RealmGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AAD96A27EF5A5B00AB25DF /* RealmGroups.swift */; };
@@ -37,12 +38,10 @@
 		F6F924B9273EE4C100D674F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F924B8273EE4C100D674F8 /* Assets.xcassets */; };
 		F6F924BC273EE4C100D674F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6F924BA273EE4C100D674F8 /* LaunchScreen.storyboard */; };
 		F6F924C4273FF7D100D674F8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F924C3273FF7D100D674F8 /* LoginViewController.swift */; };
-		F9DE3E766421E435C868587E /* Pods_VKClientAppCS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843CC09D713CD190D1D6F8CD /* Pods_VKClientAppCS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		337488D6FEE10B099D29B914 /* Pods-VKClientAppCS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKClientAppCS.debug.xcconfig"; path = "Target Support Files/Pods-VKClientAppCS/Pods-VKClientAppCS.debug.xcconfig"; sourceTree = "<group>"; };
-		843CC09D713CD190D1D6F8CD /* Pods_VKClientAppCS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VKClientAppCS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D816120DE3CE9A3B589E3137 /* Pods-VKClientAppCS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKClientAppCS.release.xcconfig"; path = "Target Support Files/Pods-VKClientAppCS/Pods-VKClientAppCS.release.xcconfig"; sourceTree = "<group>"; };
 		F603EC3C27B6F075000B7DFC /* VKLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKLoginViewController.swift; sourceTree = "<group>"; };
 		F6137B22276FB445002ED134 /* CustomMoveToPhotoSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMoveToPhotoSegue.swift; sourceTree = "<group>"; };
@@ -63,6 +62,7 @@
 		F64F868C276686330068CF89 /* LikeControlView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LikeControlView.xib; sourceTree = "<group>"; };
 		F6567D1D27B28B3200AE6BE3 /* SingletonSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonSession.swift; sourceTree = "<group>"; };
 		F677DEE827C6C183000390E3 /* AllGroups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllGroups.swift; sourceTree = "<group>"; };
+		F68DB81529A2A29400429DF1 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		F6AAD96327EF554100AB25DF /* RealmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
 		F6AAD96827EF5A4800AB25DF /* RealmFriends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmFriends.swift; sourceTree = "<group>"; };
 		F6AAD96A27EF5A5B00AB25DF /* RealmGroups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmGroups.swift; sourceTree = "<group>"; };
@@ -83,7 +83,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9DE3E766421E435C868587E /* Pods_VKClientAppCS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,7 +101,6 @@
 		955452897F4E548A4CFFFC42 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				843CC09D713CD190D1D6F8CD /* Pods_VKClientAppCS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -126,6 +124,7 @@
 		F616CD8027B95063009B04E1 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				F6567D1D27B28B3200AE6BE3 /* SingletonSession.swift */,
 				F616CD8127B95083009B04E1 /* NetworkService.swift */,
 				F6AAD96327EF554100AB25DF /* RealmService.swift */,
 			);
@@ -146,7 +145,6 @@
 				F6AAD96527EF590700AB25DF /* Realm */,
 				F61AE2B8274D5C4B00F496FA /* Friends.swift */,
 				F61AE2BA274D5C5800F496FA /* Groups.swift */,
-				F6567D1D27B28B3200AE6BE3 /* SingletonSession.swift */,
 				F63401B327C2B59A004F0F31 /* Photos.swift */,
 				F677DEE827C6C183000390E3 /* AllGroups.swift */,
 			);
@@ -156,6 +154,7 @@
 		F6334D62274D597D00EE301D /* VC */ = {
 			isa = PBXGroup;
 			children = (
+				F68DB81429A2A26900429DF1 /* News */,
 				F616CD7D27B8F4EA009B04E1 /* Test */,
 				F6137B21276FB421002ED134 /* Segue */,
 				F64F8689276685DE0068CF89 /* LikeControl */,
@@ -221,6 +220,22 @@
 				F64F868C276686330068CF89 /* LikeControlView.xib */,
 			);
 			path = LikeControl;
+			sourceTree = "<group>";
+		};
+		F68DB81429A2A26900429DF1 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				F68DB81729A2A35200429DF1 /* Cells */,
+				F68DB81529A2A29400429DF1 /* NewsViewController.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		F68DB81729A2A35200429DF1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		F6AAD96527EF590700AB25DF /* Realm */ = {
@@ -396,6 +411,7 @@
 				F61AE2C1274D671D00F496FA /* FriendsViewController.swift in Sources */,
 				F61AE2CC274E9C2200F496FA /* AllGroupsViewController.swift in Sources */,
 				F616CD7F27B8F503009B04E1 /* TestViewController.swift in Sources */,
+				F68DB81629A2A29400429DF1 /* NewsViewController.swift in Sources */,
 				F64F868B276686180068CF89 /* LikeControlView.swift in Sources */,
 				F616CD8227B95083009B04E1 /* NetworkService.swift in Sources */,
 				F6F924C4273FF7D100D674F8 /* LoginViewController.swift in Sources */,
