@@ -63,12 +63,13 @@
 		F6567D1D27B28B3200AE6BE3 /* SingletonSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonSession.swift; sourceTree = "<group>"; };
 		F677DEE827C6C183000390E3 /* AllGroups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllGroups.swift; sourceTree = "<group>"; };
 		F68DB81529A2A29400429DF1 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		F68DB84129A2A5C100429DF1 /* VKClientAppCS copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "VKClientAppCS copy-Info.plist"; path = "/Users/ssimashov/Desktop/GB/VKClientAppRef/VKClientAppCS copy-Info.plist"; sourceTree = "<absolute>"; };
 		F6AAD96327EF554100AB25DF /* RealmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
 		F6AAD96827EF5A4800AB25DF /* RealmFriends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmFriends.swift; sourceTree = "<group>"; };
 		F6AAD96A27EF5A5B00AB25DF /* RealmGroups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmGroups.swift; sourceTree = "<group>"; };
 		F6AAD96E27EF5A8900AB25DF /* RealmAllGroups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmAllGroups.swift; sourceTree = "<group>"; };
 		F6E52E672757EA590026D7AD /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
-		F6F924AC273EE4C000D674F8 /* VKClientAppCS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKClientAppCS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6F924AC273EE4C000D674F8 /* VKClientApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKClientApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F924AF273EE4C000D674F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6F924B1273EE4C000D674F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F6F924B6273EE4C000D674F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -263,13 +264,14 @@
 				F6F924AD273EE4C000D674F8 /* Products */,
 				2AACFB450320F37327F8B8BF /* Pods */,
 				955452897F4E548A4CFFFC42 /* Frameworks */,
+				F68DB84129A2A5C100429DF1 /* VKClientAppCS copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
 		F6F924AD273EE4C000D674F8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F6F924AC273EE4C000D674F8 /* VKClientAppCS.app */,
+				F6F924AC273EE4C000D674F8 /* VKClientApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -293,9 +295,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F6F924AB273EE4C000D674F8 /* VKClientAppCS */ = {
+		F6F924AB273EE4C000D674F8 /* VKClientApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F6F924C0273EE4C100D674F8 /* Build configuration list for PBXNativeTarget "VKClientAppCS" */;
+			buildConfigurationList = F6F924C0273EE4C100D674F8 /* Build configuration list for PBXNativeTarget "VKClientApp" */;
 			buildPhases = (
 				6B6330BDB3CC5A0B464C8E12 /* [CP] Check Pods Manifest.lock */,
 				F6F924A8273EE4C000D674F8 /* Sources */,
@@ -307,9 +309,9 @@
 			);
 			dependencies = (
 			);
-			name = VKClientAppCS;
+			name = VKClientApp;
 			productName = VKClientApp;
-			productReference = F6F924AC273EE4C000D674F8 /* VKClientAppCS.app */;
+			productReference = F6F924AC273EE4C000D674F8 /* VKClientApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -340,7 +342,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F6F924AB273EE4C000D674F8 /* VKClientAppCS */,
+				F6F924AB273EE4C000D674F8 /* VKClientApp */,
 			);
 		};
 /* End PBXProject section */
@@ -646,7 +648,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F6F924C0273EE4C100D674F8 /* Build configuration list for PBXNativeTarget "VKClientAppCS" */ = {
+		F6F924C0273EE4C100D674F8 /* Build configuration list for PBXNativeTarget "VKClientApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F6F924C1273EE4C100D674F8 /* Debug */,
